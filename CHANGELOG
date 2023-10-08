@@ -21,6 +21,11 @@ git
 
   * Documentation and error message updates.
 
+v4.6  8-oct-2023
+  * Don't change user if we are not root.  
+    this is usefull in docker containers.  
+    give /etc/cron.d the current user owns and run crond with this user
+    
 v4.5  1-May-2011
   * Some cron jobs were running multiple times. Now we make sure not to
     ArmJobs that are already running; and not to resynchronize while jobs are

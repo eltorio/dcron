@@ -165,7 +165,7 @@ main(int ac, char **av)
 				/*
 				 * check for parse error
 				 */
-				printf("dillon's cron daemon " VERSION "\n");
+				printf("not necessarily root cron daemon " VERSION "\n");
 				printf("crond [-s dir] [-c dir] [-t dir] [-m user@host] [-M mailer] [-S|-L [file]] [-l level] [-b|-f|-d]\n");
 				printf("-s            directory of system crontabs (defaults to %s)\n", SCRONTABS);
 				printf("-c            directory of per-user crontabs (defaults to %s)\n", CRONTABS);
