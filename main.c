@@ -289,7 +289,7 @@ main(int ac, char **av)
 	 *             of 1 second.
 	 */
 
-	printlogf(LOG_NOTICE,"%s " VERSION " dillon's cron daemon, started with loglevel %s\n", av[0], LevelAry[LogLevel]);
+	printlogf(LOG_NOTICE,"%s " VERSION " not necessarily root cron daemon, started with loglevel %s\n", av[0], LevelAry[LogLevel]);
 	SynchronizeDir(CDir, NULL, 1);
 	SynchronizeDir(SCDir, "root", 1);
 	ReadTimestamps(NULL);

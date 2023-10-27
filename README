@@ -1,6 +1,8 @@
-DCRON - DILLON'S LIGHTWEIGHT CRON DAEMON
+DCRON - NOT NECESSARILY ROOT LIGHTWEIGHT CRON DAEMON
 ========================================
 
+This is a modified Dillon's cron daemon for being usable as non root without chuid.
+It is usefull in Docker image runnin as non root user.
 This lightweight cron daemon aims to be simple and secure, with just enough
 features to stay useful. It was written from scratch by Matt Dillon in 1994.
 It's now developed and maintained by James Pryor.
